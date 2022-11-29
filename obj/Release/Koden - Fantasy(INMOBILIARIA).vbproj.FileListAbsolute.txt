@@ -1,0 +1,47 @@
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\Inmobiliaria Fantasy.exe.config
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\Inmobiliaria Fantasy.exe.manifest
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\Inmobiliaria Fantasy.application
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\Inmobiliaria Fantasy.exe
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\Inmobiliaria Fantasy.pdb
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\Inmobiliaria Fantasy.xml
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySql.Data.dll
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySql.Data.Entity.EF6.dll
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySql.Web.dll
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySql.Data.xml
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySql.Data.Entity.EF6.xml
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\gokus\source\repos\WindowsApp6\bin\Release\MySql.Web.xml
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Koden - Fantasy(INMOBILIARIA).vbprojAssemblyReference.cache
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.CargaCliente.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.CargaGerente.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.PantalladeCarga.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.Agendarvisitas.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.Registro.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.cancelvisit.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.AgendaDia.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.ModVisita.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.ConsultarProp.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.VerPropdesc.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.VerPropCliente.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.AllModificadas.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.TodasCanceladas.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.ClienteSucursal.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.Entrar.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.AgenteSucursal.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.userIncorrecto.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.userCorrecto.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.LoginGenerico.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.adminConsulta.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.PantallaVentana.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Fantasy.exe.Resources.resources
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Koden - Fantasy(INMOBILIARIA).vbproj.GenerateResource.cache
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Koden - Fantasy(INMOBILIARIA).vbproj.CoreCompileInputs.cache
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Inmobiliaria Fantasy.exe.manifest
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Inmobiliaria Fantasy.application
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Koden - Fantasy(INMOBILIARIA).vbproj.CopyComplete
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Inmobiliaria Fantasy.exe
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Inmobiliaria Fantasy.xml
+C:\Users\gokus\source\repos\WindowsApp6\obj\Release\Inmobiliaria Fantasy.pdb

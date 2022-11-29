@@ -1,0 +1,9 @@
+﻿NOTAS:
+
+
+KODEN 3 IB
+
+
+
+/base de datos.
+mysqlconecction : representa una conexión abierta a una base de datos del servidor MySQL. Esta clase no puede heredarse.

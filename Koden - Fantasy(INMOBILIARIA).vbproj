@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8373EE1-4C30-4FE3-9D84-E542D1FDB195}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Fantasy.exe.My.MyApplication</StartupObject>
+    <RootNamespace>Fantasy.exe</RootNamespace>
+    <AssemblyName>Inmobiliaria Fantasy</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\gokus\OneDrive\Escritorio\cm\tareas\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Inmobiliaria Fantasy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Inmobiliaria Fantasy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4567C34822C91AFB0E6B10A6BAA7156DB5897817</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Koden - Fantasy%28INMOBILIARIA%29_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.16\Assemblies\v4.5.2\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.16\Assemblies\v4.5.2\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.10.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySQL.Data.EntityFrameworkCore, Version=6.10.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySQL.Data.EntityFrameworkCore.Design, Version=6.10.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=6.10.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CargaCliente.Designer.vb">
+      <DependentUpon>CargaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CargaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CargaGerente.Designer.vb">
+      <DependentUpon>CargaGerente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CargaGerente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CargaAgente.Designer.vb">
+      <DependentUpon>CargaAgente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CargaAgente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgendarVisitas.Designer.vb">
+      <DependentUpon>AgendarVisitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgendarVisitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.vb">
+      <DependentUpon>Registro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cancelVisit.Designer.vb">
+      <DependentUpon>cancelVisit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cancelVisit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agenda_Dia.Designer.vb">
+      <DependentUpon>Agenda_Dia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda_Dia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModVisita.Designer.vb">
+      <DependentUpon>ModVisita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModVisita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarProp.Designer.vb">
+      <DependentUpon>ConsultarProp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarProp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerPropSinUser.Designer.vb">
+      <DependentUpon>VerPropSinUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerPropSinUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerPropiedadesCliente.Designer.vb">
+      <DependentUpon>VerPropiedadesCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerPropiedadesCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TodasModificadass.Designer.vb">
+      <DependentUpon>TodasModificadass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TodasModificadass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TodasCanceladas.Designer.vb">
+      <DependentUpon>TodasCanceladas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TodasCanceladas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClienteSucursal.Designer.vb">
+      <DependentUpon>ClienteSucursal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteSucursal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrar.Designer.vb">
+      <DependentUpon>Entrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entrar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgenteSucursal.Designer.vb">
+      <DependentUpon>AgenteSucursal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgenteSucursal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userIncorrecto.Designer.vb">
+      <DependentUpon>userIncorrecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="userIncorrecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userCorrecto.Designer.vb">
+      <DependentUpon>userCorrecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="userCorrecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginGenerico.Designer.vb">
+      <DependentUpon>LoginGenerico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginGenerico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminConsulta.Designer.vb">
+      <DependentUpon>adminConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminConsulta.vb" />
+    <Compile Include="GerenteSucursal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GerenteSucursal.Designer.vb">
+      <DependentUpon>GerenteSucursal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CargaCliente.resx">
+      <DependentUpon>CargaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CargaGerente.resx">
+      <DependentUpon>CargaGerente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CargaAgente.resx">
+      <DependentUpon>CargaAgente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgendarVisitas.resx">
+      <DependentUpon>AgendarVisitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancelVisit.resx">
+      <DependentUpon>cancelVisit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda_Dia.resx">
+      <DependentUpon>Agenda_Dia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModVisita.resx">
+      <DependentUpon>ModVisita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarProp.resx">
+      <DependentUpon>ConsultarProp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerPropSinUser.resx">
+      <DependentUpon>VerPropSinUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerPropiedadesCliente.resx">
+      <DependentUpon>VerPropiedadesCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TodasModificadass.resx">
+      <DependentUpon>TodasModificadass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TodasCanceladas.resx">
+      <DependentUpon>TodasCanceladas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClienteSucursal.resx">
+      <DependentUpon>ClienteSucursal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrar.resx">
+      <DependentUpon>Entrar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgenteSucursal.resx">
+      <DependentUpon>AgenteSucursal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userIncorrecto.resx">
+      <DependentUpon>userIncorrecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userCorrecto.resx">
+      <DependentUpon>userCorrecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginGenerico.resx">
+      <DependentUpon>LoginGenerico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminConsulta.resx">
+      <DependentUpon>adminConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GerenteSucursal.resx">
+      <DependentUpon>GerenteSucursal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Explicacion de ventanas.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

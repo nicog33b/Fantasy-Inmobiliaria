@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Koden - Fantasy(INMOBILIARIA)", "Koden - Fantasy(INMOBILIARIA).vbproj", "{F8373EE1-4C30-4FE3-9D84-E542D1FDB195}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstalacionFantasy", "..\InstalacionFantasy\InstalacionFantasy.vdproj", "{CA3416A5-C5FD-44F6-89A7-ADBAD4B89EB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8373EE1-4C30-4FE3-9D84-E542D1FDB195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8373EE1-4C30-4FE3-9D84-E542D1FDB195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8373EE1-4C30-4FE3-9D84-E542D1FDB195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8373EE1-4C30-4FE3-9D84-E542D1FDB195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3416A5-C5FD-44F6-89A7-ADBAD4B89EB2}.Debug|Any CPU.ActiveCfg = Debug
+		{CA3416A5-C5FD-44F6-89A7-ADBAD4B89EB2}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F293A874-60A2-48BC-9B00-6DE11FE6D848}
+	EndGlobalSection
+EndGlobal
